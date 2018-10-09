@@ -16,5 +16,14 @@ namespace Tabs
         {
             InitializeComponent();
         }
+
+        private void tabControl1_Selecting(object sender, TabControlCancelEventArgs e)
+        {
+            if (TabControll.SelectedTab == AddTab)
+            {
+                e.Cancel = true;
+                MessageBox.Show("Should open dialog here to add geometry");
+            }
+        }
     }
 }
