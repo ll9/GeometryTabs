@@ -30,18 +30,18 @@
         {
             this.TabControll = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.AddTab = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.AddTab = new System.Windows.Forms.TabPage();
             this.TabControll.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // TabControll
             // 
             this.TabControll.Controls.Add(this.tabPage1);
             this.TabControll.Controls.Add(this.tabPage2);
             this.TabControll.Controls.Add(this.AddTab);
             this.TabControll.Location = new System.Drawing.Point(32, 125);
-            this.TabControll.Name = "tabControl1";
+            this.TabControll.Name = "TabControll";
             this.TabControll.SelectedIndex = 0;
             this.TabControll.Size = new System.Drawing.Size(200, 100);
             this.TabControll.TabIndex = 0;
@@ -57,16 +57,6 @@
             this.tabPage1.Text = "LDS_FEATURES";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage3
-            // 
-            this.AddTab.BackColor = System.Drawing.Color.Transparent;
-            this.AddTab.Location = new System.Drawing.Point(4, 22);
-            this.AddTab.Name = "tabPage3";
-            this.AddTab.Padding = new System.Windows.Forms.Padding(3);
-            this.AddTab.Size = new System.Drawing.Size(192, 74);
-            this.AddTab.TabIndex = 2;
-            this.AddTab.Text = "+";
-            // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -76,6 +66,16 @@
             this.tabPage2.TabIndex = 3;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // AddTab
+            // 
+            this.AddTab.BackColor = System.Drawing.Color.Transparent;
+            this.AddTab.Location = new System.Drawing.Point(4, 22);
+            this.AddTab.Name = "AddTab";
+            this.AddTab.Padding = new System.Windows.Forms.Padding(3);
+            this.AddTab.Size = new System.Drawing.Size(192, 74);
+            this.AddTab.TabIndex = 2;
+            this.AddTab.Text = "+";
             // 
             // Form1
             // 
